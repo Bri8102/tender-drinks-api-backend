@@ -30,6 +30,7 @@ class Api::V1::LiquorsController < ApplicationController
     #     render json: {liquorId: liquor.id}
     # end
 
+    
     private
     
     def liquor_params
