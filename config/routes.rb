@@ -1,0 +1,6 @@
+Rails.application.routes.draw do
+  resources :liquor_drinks
+  resources :liquors
+  resources :drinks
+  # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
+end
